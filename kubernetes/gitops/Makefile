@@ -8,7 +8,7 @@ cluster-create:
 	--port 443:443@loadbalancer \
 
 docker:
-	docker pull grazielam/desafiodevops:latest
+	docker run -dp 127.0.0.1:3000:3000 grazielam/desafiodevops
 
 repos:
 	helm repo update

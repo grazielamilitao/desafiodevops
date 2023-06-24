@@ -11,6 +11,10 @@ docker login -u grazielam
 
 docker push grazielam/desafiodevops
 
+## pull image 
+
+docker pull grazielam/desafiodevops:latest
+
 # Kubernetes 
 
 ## Criando o Cluster localmente (k3d)
