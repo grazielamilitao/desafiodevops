@@ -6,5 +6,9 @@
 # Execução #
 
 ## Kubernetes ##
+``
 cd ./kubernetes/gitops
-make all 
+``
+``
+make all
+``

@@ -48,12 +48,4 @@ http://app.desafiokubernetes
 ## healthcheck 
 ```
 curl http://app.desafiokubernetes/healthcheck/
-```
-
-## Operacoes para a apresentacao
-
-
-kubectl get pods
-kubectl scale deployment postgres --replicas=0
-kubectl scale deployment users --replicas=0
-kubectl scale deployment users --replicas=1
+``
