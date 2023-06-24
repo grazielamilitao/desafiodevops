@@ -1,4 +1,4 @@
-all: cluster-create repos
+all: cluster-create docker repos
 
 cluster-create:
 	- k3d cluster create desafio-kubernetes \
@@ -6,6 +6,9 @@ cluster-create:
 	--api-port 6550 \
 	--port 81:80@loadbalancer \
 	--port 443:443@loadbalancer \
+
+docker:
+	docker pull grazielam/desafiodevops:latest
 
 repos:
 	helm repo update

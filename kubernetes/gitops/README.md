@@ -1,11 +1,15 @@
 # Instruções
 
-## build image 
+## build image / push docker hub
+cd ..
 
-```
-docker build - < Dockerfile
+docker build - < Dockerfile -t grazielam/desafiodevops 
 
-```
+docker run -dp 127.0.0.1:3000:3000 grazielam/desafiodevops
+
+docker login -u grazielam
+
+docker push grazielam/desafiodevops
 
 # Kubernetes 
 
