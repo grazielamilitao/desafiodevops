@@ -16,4 +16,3 @@ repos:
 
 destroy:
 	k3d cluster delete desafio-kubernetes
-	rm kubeconfig-desafio-kubernetes
