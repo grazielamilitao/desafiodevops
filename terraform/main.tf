@@ -11,7 +11,6 @@ terraform {
 provider "aws" {
   region  = var.aws_region //regiao da AWS
   profile = var.aws_profile // profile com as credenciais do terraform
-
 }
 
 # Create a VPC

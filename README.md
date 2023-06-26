@@ -16,11 +16,10 @@ Nota: Não testei na AWS, apenas fiz os arquivos "template" de como deveria ser 
 ## Kubernetes ##
 Você encontrará a sequência de comandos do makefile e explicação no readme dentro da pasta "./kubernetes/gitops/".
 
-# Execução #
+Nota: A imagem da aplicação não está subindo corretamente, porém quando puder irei corrigir isso.
 
+# Execução #
 ## Kubernetes ##
 Comandos utilizados (dentro do diretório "desafio-devops"):
 1. cd ./kubernetes/gitops
 2. make all
-
-## Terraform ##

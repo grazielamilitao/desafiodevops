@@ -1,10 +1,15 @@
 # arquivo de variaveis da automacao do ec2
 variable "aws_region" {
-
   type        = string
   description = ""
   default     = "us-east-1"
 
+}
+
+variable "aws_zone" {
+  type        = string
+  description = ""
+  default = "us-central1-c"
 }
 
 variable "aws_profile" {
@@ -13,7 +18,6 @@ variable "aws_profile" {
   description = ""
   default     = "ec2-profile"
 }
-
 
 variable "instance_type" {
   type        = string
@@ -27,3 +31,14 @@ variable "instance_key_name" {
   default     = "desafio-terraform"
 }
 
+variable "instance_ip_address" {
+  type        = string
+  description = ""
+  default     = "ipv4"
+}
+
+variable "public_ip" {
+  type        = string
+  description = ""
+  default     = "ipv4"
+}
